@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		C12C5D9D241FD43E003D229C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D9B241FD43E003D229C /* Main.storyboard */; };
 		C12C5D9F241FD440003D229C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12C5D9E241FD440003D229C /* Assets.xcassets */; };
 		C12C5DA2241FD440003D229C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DA0241FD440003D229C /* LaunchScreen.storyboard */; };
+		C12C5DAA241FD5CC003D229C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */; };
+		C12C5DAD24211CF2003D229C /* whiteRabbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DAC24211C5A003D229C /* whiteRabbit.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C12C5D9E241FD440003D229C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12C5DA1241FD440003D229C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12C5DA3241FD440003D229C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C12C5DAC24211C5A003D229C /* whiteRabbit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whiteRabbit.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		C12C5D89241FD43E003D229C = {
 			isa = PBXGroup;
 			children = (
+				C12C5DAB24211BF8003D229C /* Fonts */,
 				C12C5D94241FD43E003D229C /* JordyDiary */,
 				C12C5D93241FD43E003D229C /* Products */,
 				E33A6B33DC03FAF130FC9DB9 /* Pods */,
@@ -78,8 +83,17 @@
 				C12C5D9E241FD440003D229C /* Assets.xcassets */,
 				C12C5DA0241FD440003D229C /* LaunchScreen.storyboard */,
 				C12C5DA3241FD440003D229C /* Info.plist */,
+				C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */,
 			);
 			path = JordyDiary;
+			sourceTree = "<group>";
+		};
+		C12C5DAB24211BF8003D229C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C12C5DAC24211C5A003D229C /* whiteRabbit.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		E33A6B33DC03FAF130FC9DB9 /* Pods */ = {
@@ -88,7 +102,6 @@
 				47C0542AF053C35521B4B055 /* Pods-JordyDiary.debug.xcconfig */,
 				42F0E75F37C6256C7EC15B54 /* Pods-JordyDiary.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +116,7 @@
 				C12C5D8E241FD43E003D229C /* Sources */,
 				C12C5D8F241FD43E003D229C /* Frameworks */,
 				C12C5D90241FD43E003D229C /* Resources */,
+				6BAFA8DB806C5F2E1D155249 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12C5DA2241FD440003D229C /* LaunchScreen.storyboard in Resources */,
+				C12C5DAA241FD5CC003D229C /* GoogleService-Info.plist in Resources */,
 				C12C5D9F241FD440003D229C /* Assets.xcassets in Resources */,
 				C12C5D9D241FD43E003D229C /* Main.storyboard in Resources */,
+				C12C5DAD24211CF2003D229C /* whiteRabbit.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +196,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAFA8DB806C5F2E1D155249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JordyDiary/Pods-JordyDiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JordyDiary/Pods-JordyDiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JordyDiary/Pods-JordyDiary-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

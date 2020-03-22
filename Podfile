@@ -6,5 +6,7 @@ target 'JordyDiary' do
   use_frameworks!
 
   # Pods for JordyDiary
+  pod 'Firebase/Analytics'
+
 
 end
