@@ -16,6 +16,7 @@
 		C12C5DA2241FD440003D229C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DA0241FD440003D229C /* LaunchScreen.storyboard */; };
 		C12C5DAA241FD5CC003D229C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */; };
 		C12C5DAD24211CF2003D229C /* whiteRabbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = C12C5DAC24211C5A003D229C /* whiteRabbit.otf */; };
+		C12C5DAF2428D122003D229C /* LoginPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C5DAE2428D122003D229C /* LoginPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C12C5DA3241FD440003D229C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C12C5DAC24211C5A003D229C /* whiteRabbit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whiteRabbit.otf; sourceTree = "<group>"; };
+		C12C5DAE2428D122003D229C /* LoginPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				C12C5DA0241FD440003D229C /* LaunchScreen.storyboard */,
 				C12C5DA3241FD440003D229C /* Info.plist */,
 				C12C5DA9241FD5CC003D229C /* GoogleService-Info.plist */,
+				C12C5DAE2428D122003D229C /* LoginPopup.swift */,
 			);
 			path = JordyDiary;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12C5DAF2428D122003D229C /* LoginPopup.swift in Sources */,
 				C12C5D9A241FD43E003D229C /* ViewController.swift in Sources */,
 				C12C5D96241FD43E003D229C /* AppDelegate.swift in Sources */,
 				C12C5D98241FD43E003D229C /* SceneDelegate.swift in Sources */,
